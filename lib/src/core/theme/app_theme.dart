@@ -2,15 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  static const Color primaryColor = Color(0xFF6366F1);
-  static const Color secondaryColor = Color(0xFF8B5CF6);
-
   static ThemeData get lightTheme => ThemeData(
     useMaterial3: true,
     brightness: Brightness.light,
     textTheme: GoogleFonts.nunitoTextTheme(ThemeData.light().textTheme),
     iconTheme: const IconThemeData(color: Colors.black),
-    colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
+    colorScheme: ColorScheme.light(
+      primary: Colors.blueAccent,
+      secondary: Colors.white,
+      tertiary: const Color.fromARGB(71, 255, 255, 255),
+    ),
     appBarTheme: const AppBarTheme(
       centerTitle: true,
       elevation: 0,
@@ -22,9 +23,13 @@ class AppTheme {
   static ThemeData get darkTheme => ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    textTheme: GoogleFonts.nunitoTextTheme(ThemeData.light().textTheme),
+    textTheme: GoogleFonts.nunitoTextTheme(ThemeData.dark().textTheme),
     iconTheme: const IconThemeData(color: Colors.black),
-    colorScheme: ColorScheme.fromSeed(seedColor: primaryColor),
+    colorScheme: ColorScheme.dark(
+      primary: Colors.grey.shade900,
+      secondary: Colors.white,
+      tertiary: Colors.grey.shade900,
+    ),
     appBarTheme: const AppBarTheme(
       centerTitle: true,
       elevation: 0,

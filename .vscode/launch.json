@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run on Android",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "9f122cbd"
+    },
+    {
+      "name": "Run on iOS",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "880FC112-9D79-4588-8262-E77904AD0CE2"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run on Android + iOS",
+      "configurations": ["Run on Android", "Run on iOS"]
+    }
+  ]
+}

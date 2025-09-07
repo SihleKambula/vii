@@ -1,0 +1,8 @@
+Generate production ready authention process. These are the packages and services to use:
+- Firebase_auth
+- Google Sign in
+- Apple Sign in
+- Riverpod using riverpod_generator
+
+The code should start from installation, create a userModel to house the authenticated user data, services, login screen as well as a profile screen
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239813232208",
+    "project_id": "buddyvii",
+    "storage_bucket": "buddyvii.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239813232208:android:f8b4734e8b52916a08b355",
+        "android_client_info": {
+          "package_name": "com.simedia.vii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6wBkOEWfch9yIsICsd-HfpT-4A9GfPTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

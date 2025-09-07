@@ -10,14 +10,40 @@ dependencies:
   flutter:
     sdk: flutter
 
+    # Firebase
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+
+  # Sign-in providers
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^7.0.1
+  crypto: ^3.0.3
+
   # UI/UX
   google_fonts: ^6.3.0
   line_icons: ^2.0.3
+
+  # state management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  #utilities
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.5
+  custom_lint: ^0.7.6
+  riverpod_lint: ^2.6.5
+  freezed: ^3.1.0
+  build_runner: ^2.5.4
+
+  # Code generation
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
